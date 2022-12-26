@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpeAssignment1", "CShar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpeassignment-2", "CSharpeassignment-2\CSharpeassignment-2.csproj", "{DB45F93C-3081-45F2-A875-0055A70DBAA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employeeproject", "Employeeproject\Employeeproject.csproj", "{F27F89F7-D6D9-4129-AF0A-379419EB8810}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employeeproject", "Employeeproject\Employeeproject.csproj", "{F27F89F7-D6D9-4129-AF0A-379419EB8810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schoolmanagement", "Schoolmanagement\Schoolmanagement.csproj", "{CF59DC51-D569-4EC0-AD4F-C0261503FEB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F27F89F7-D6D9-4129-AF0A-379419EB8810}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F27F89F7-D6D9-4129-AF0A-379419EB8810}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F27F89F7-D6D9-4129-AF0A-379419EB8810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF59DC51-D569-4EC0-AD4F-C0261503FEB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF59DC51-D569-4EC0-AD4F-C0261503FEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF59DC51-D569-4EC0-AD4F-C0261503FEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF59DC51-D569-4EC0-AD4F-C0261503FEB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
