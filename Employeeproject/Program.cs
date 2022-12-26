@@ -13,6 +13,7 @@ namespace Maveric.Runner
             Employee emp1=new Employee();
             Employee emp2=new Employee();
             Employee emp3=new Employee();
+            Employee emp4=new Employee();
             emp1.emplid = 101;
             emp1.emplname = "Rakesh Rout";
             emp1.emplsalary = 20000;
@@ -22,21 +23,26 @@ namespace Maveric.Runner
             emp3.emplid = 103;
             emp3.emplname = "Rishwa jack";
             emp3.emplsalary = 1200.3;
-         Console.WriteLine( emp1.emplid);
-            Console.WriteLine(emp1.emplname);
-            Console.WriteLine(emp1.emplsalary);
-            Console.WriteLine(Employee.companyname);
-            Console.WriteLine(Employee.companylocation);
-            Console.WriteLine(emp2.emplid);
-            Console.WriteLine(emp2.emplname);
-            Console.WriteLine(emp2.emplsalary);
-            Console.WriteLine(Employee.companyname);
-            Console.WriteLine(Employee.companylocation);
-            Console.WriteLine(emp3.emplid);
-            Console.WriteLine(emp3.emplname);
-            Console.WriteLine(emp3.emplsalary);
-            Console.WriteLine(Employee.companyname);
-            Console.WriteLine(Employee.companylocation);
+            emp2.PrintEmoployeedetails();
+            emp1.PrintEmoployeedetails();
+            emp3.PrintEmoployeedetails();
+            emp4.PrintEmoployeedetails();
+
+        // Console.WriteLine( emp1.emplid);
+          //  Console.WriteLine(emp1.emplname);
+            //Console.WriteLine(emp1.emplsalary);
+            //Console.WriteLine(Employee.companyname);
+          //  Console.WriteLine(Employee.companylocation);
+            //Console.WriteLine(emp2.emplid);
+            //Console.WriteLine(emp2.emplname);
+            //Console.WriteLine(emp2.emplsalary);
+            //Console.WriteLine(Employee.companyname);
+            //Console.WriteLine(Employee.companylocation);
+            //Console.WriteLine(emp3.emplid);
+            //Console.WriteLine(emp3.emplname);
+            //Console.WriteLine(emp3.emplsalary);
+            //Console.WriteLine(Employee.companyname);
+         //   Console.WriteLine(Employee.companylocation);
 
 
         }
