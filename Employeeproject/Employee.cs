@@ -10,15 +10,33 @@ namespace Employeeproject
     {
         public int emplid;
         public string emplname;
-        public double emplsalary;
+       private double _emplsalary;
         public char emplyoeePerformanceType;
         public static string companyname;
         public static string companylocation;
+        public double Emplsalary
+        {
+            get
+            {
+                return _emplsalary;
+            }
+            set
+            {
+                if(value>3000)
+                {
+                    _emplsalary = value;
+                }
+                else
+                {
+                    Console.WriteLine("INVALID  SALARY SO default value remains!!!!!!");
+                }
+            }
+        }
         public void PrintEmoployeedetails()
         {
             Console.WriteLine("Emplyee id is:" + emplid);
             Console.WriteLine("Employee name is :" + emplname);
-            Console.WriteLine("Employee salary is :" + emplsalary);
+            Console.WriteLine("Employee salary is :" + _emplsalary);
             Console.WriteLine("Employee performance is :" + emplyoeePerformanceType);
             Console.WriteLine("Company Name is :" + Employee.companyname);
             Console.WriteLine("Company Location is :" + Employee.companylocation);
@@ -31,15 +49,15 @@ namespace Employeeproject
             Console.WriteLine("Employee id :" + emplid);
             if(emplyoeePerformanceType=='A')
             {
-                Console.WriteLine(emplsalary + (emplsalary * 20 / 100.0));
+                Console.WriteLine(_emplsalary + (_emplsalary * 20 / 100.0));
             }
             else if(emplyoeePerformanceType=='B')
             {
-                Console.WriteLine(emplsalary + (emplsalary * 15 / 100.0));
+                Console.WriteLine(_emplsalary + (_emplsalary * 15 / 100.0));
             }
             else if(emplyoeePerformanceType=='C')
             {
-                Console.WriteLine(emplsalary + (emplsalary * 10 / 100.0));
+                Console.WriteLine(_emplsalary + (_emplsalary * 10 / 100.0));
             }
             else
             {
