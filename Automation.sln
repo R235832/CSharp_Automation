@@ -11,9 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpeassignment-2", "CSha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employeeproject", "Employeeproject\Employeeproject.csproj", "{F27F89F7-D6D9-4129-AF0A-379419EB8810}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schoolmanagement", "Schoolmanagement\Schoolmanagement.csproj", "{CF59DC51-D569-4EC0-AD4F-C0261503FEB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schoolmanagement", "Schoolmanagement\Schoolmanagement.csproj", "{CF59DC51-D569-4EC0-AD4F-C0261503FEB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartProject", "ShoppingCartProject\ShoppingCartProject.csproj", "{77F8F1AD-7E3A-4446-8BE6-CCD88998A183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCartProject", "ShoppingCartProject\ShoppingCartProject.csproj", "{77F8F1AD-7E3A-4446-8BE6-CCD88998A183}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumConcept", "SeleniumCocept\SeleniumConcept.csproj", "{DC28D481-D7CE-4FE2-B688-4AA43C7C9E7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParaBankProject", "ParaBankProject\ParaBankProject.csproj", "{51104FCB-E074-47DA-9126-B77182EAF805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuruDemo", "GuruDemo\GuruDemo.csproj", "{7F518F47-5F3E-4CD9-A35F-367C14535F9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{77F8F1AD-7E3A-4446-8BE6-CCD88998A183}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77F8F1AD-7E3A-4446-8BE6-CCD88998A183}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77F8F1AD-7E3A-4446-8BE6-CCD88998A183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC28D481-D7CE-4FE2-B688-4AA43C7C9E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC28D481-D7CE-4FE2-B688-4AA43C7C9E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC28D481-D7CE-4FE2-B688-4AA43C7C9E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC28D481-D7CE-4FE2-B688-4AA43C7C9E7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51104FCB-E074-47DA-9126-B77182EAF805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51104FCB-E074-47DA-9126-B77182EAF805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51104FCB-E074-47DA-9126-B77182EAF805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51104FCB-E074-47DA-9126-B77182EAF805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F518F47-5F3E-4CD9-A35F-367C14535F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F518F47-5F3E-4CD9-A35F-367C14535F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F518F47-5F3E-4CD9-A35F-367C14535F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F518F47-5F3E-4CD9-A35F-367C14535F9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

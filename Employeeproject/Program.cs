@@ -16,6 +16,7 @@ namespace Maveric.Runner
             Employee emp4=new Employee();
             emp1.emplid = 101;
             emp1.emplname = "Rakesh Rout";
+
             // emp1.emplsalary = 20000;
             emp1.Emplsalary = 9000;
             emp1.emplyoeePerformanceType = 'A';

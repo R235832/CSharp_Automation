@@ -29,7 +29,7 @@ namespace Schoolmanagement
         public void DisplayCertification()
         {
             Console.WriteLine("Stdent percentage is: " + StudentPercentage);
-            if (StudentPercentage > 90)
+            if (StudentPercentage >= 90 && StudentPercentage <= 100)
             {
                 Console.WriteLine("Hi  "   +   StudentName + "!  You have successfully passed with grade A  ");
             }
