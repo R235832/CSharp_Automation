@@ -17,9 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCartProject", "Shop
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumConcept", "SeleniumCocept\SeleniumConcept.csproj", "{DC28D481-D7CE-4FE2-B688-4AA43C7C9E7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParaBankProject", "ParaBankProject\ParaBankProject.csproj", "{51104FCB-E074-47DA-9126-B77182EAF805}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParaBankProject", "ParaBankProject\ParaBankProject.csproj", "{51104FCB-E074-47DA-9126-B77182EAF805}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuruDemo", "GuruDemo\GuruDemo.csproj", "{7F518F47-5F3E-4CD9-A35F-367C14535F9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuruDemo", "GuruDemo\GuruDemo.csproj", "{7F518F47-5F3E-4CD9-A35F-367C14535F9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacebookLoginProject", "FacebookLoginProject\FacebookLoginProject.csproj", "{8BC9EC02-6803-431F-9779-F202F0EF56AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesForceLoginPage", "SalesForceLoginPage\SalesForceLoginPage.csproj", "{DFA4D03A-280D-4A44-BF9E-A6BE7C959E2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{7F518F47-5F3E-4CD9-A35F-367C14535F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F518F47-5F3E-4CD9-A35F-367C14535F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F518F47-5F3E-4CD9-A35F-367C14535F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC9EC02-6803-431F-9779-F202F0EF56AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC9EC02-6803-431F-9779-F202F0EF56AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC9EC02-6803-431F-9779-F202F0EF56AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC9EC02-6803-431F-9779-F202F0EF56AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA4D03A-280D-4A44-BF9E-A6BE7C959E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA4D03A-280D-4A44-BF9E-A6BE7C959E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA4D03A-280D-4A44-BF9E-A6BE7C959E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA4D03A-280D-4A44-BF9E-A6BE7C959E2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
