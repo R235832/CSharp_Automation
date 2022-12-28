@@ -10,6 +10,8 @@ namespace M.ParaBank
            
             IWebDriver driver = new ChromeDriver();
             driver.Url = "https://parabank.parasoft.com/parabank/register.htm";
+            driver.Manage().Window.Maximize();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             Console.WriteLine(driver.Url);
             Console.WriteLine(driver.Title);
             driver.FindElement(By.Id("customer.firstName")).SendKeys("Rakesh");
@@ -23,7 +25,7 @@ namespace M.ParaBank
             driver.FindElement(By.Id("customer.username")).SendKeys("Rakro");
             driver.FindElement(By.Id("customer.password")).SendKeys("Rak@123");
             driver.FindElement(By.Id("repeatedPassword")).SendKeys("Rak@123");
-            driver.FindElement(By.ClassName("button")).Click();
+            driver.FindElement(By.XPath("(//input[@class=\"button\"])[2]")).Click();
 
 
         }
