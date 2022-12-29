@@ -19,8 +19,8 @@ namespace Selenium.AssignmentDaytwo
             driver.FindElement(By.Name("password")).SendKeys("john123");
             driver.FindElement(By.XPath("//input[@ng-checked=\"false\"]")).Click();
             driver.FindElement(By.XPath("//button[@type=\"submit\"]")).Click();
-            //string errormessage=driver.FindElement(By.XPath("//a[@class=\"resetMobileEmail ng-hide\"]")).Text;
-            //Console.WriteLine(errormessage);
+            string errormessage = driver.FindElement(By.XPath("//*[contains(text(),'incorrect')]")).Text;
+            Console.WriteLine(errormessage);
             //driver.FindElement(By.XPath("")).Click();
         }
     

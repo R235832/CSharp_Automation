@@ -9,9 +9,9 @@ namespace FirstDaySeleniumassignment
         static void Main(string[] args)
         {
             IWebDriver driver = new ChromeDriver();
-            driver.Url = "https://demo.guru99.com/test/newtours/register.php";
             driver.Manage().Window.Maximize();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
+            driver.Url = "https://demo.guru99.com/test/newtours/register.php";
             Console.WriteLine(driver.Url);
             Console.WriteLine(driver.Title);
             driver.FindElement(By.Name("firstName")).SendKeys("Virat");

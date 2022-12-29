@@ -10,9 +10,9 @@ namespace FirstDaySeleniumAssignment
         static void Main(string[] args)
         {
             IWebDriver driver = new ChromeDriver();
-            driver.Url = "https://www.salesforce.com/in/form/signup/freetrial-sales/";
             driver.Manage().Window.Maximize();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
+            driver.Url = "https://www.salesforce.com/in/form/signup/freetrial-sales/";
             Console.WriteLine(driver.Title);
             Console.WriteLine(driver.Url);
             driver.FindElement(By.Name("UserFirstName")).SendKeys("John");
