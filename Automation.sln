@@ -23,7 +23,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuruDemo", "GuruDemo\GuruDe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacebookLoginProject", "FacebookLoginProject\FacebookLoginProject.csproj", "{8BC9EC02-6803-431F-9779-F202F0EF56AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesForceLoginPage", "SalesForceLoginPage\SalesForceLoginPage.csproj", "{DFA4D03A-280D-4A44-BF9E-A6BE7C959E2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesForceLoginPage", "SalesForceLoginPage\SalesForceLoginPage.csproj", "{DFA4D03A-280D-4A44-BF9E-A6BE7C959E2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoToMettingFreeTrial", "GoToMettingFreeTrial\GoToMettingFreeTrial.csproj", "{B682D686-32CA-49C8-A040-AE512F899A5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedibuddyLogin", "MedibuddyLogin\MedibuddyLogin.csproj", "{603D324C-B504-4563-865E-6A8E5D1E5AD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NasscomLogin", "NasscomLogin\NasscomLogin.csproj", "{9C37A6F6-9DE2-4A63-BC03-8F705A3F28B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OracleSignin", "OracleSignin\OracleSignin.csproj", "{1C3CCD6C-D158-4A35-94D0-20A251915EDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +83,22 @@ Global
 		{DFA4D03A-280D-4A44-BF9E-A6BE7C959E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFA4D03A-280D-4A44-BF9E-A6BE7C959E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFA4D03A-280D-4A44-BF9E-A6BE7C959E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B682D686-32CA-49C8-A040-AE512F899A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B682D686-32CA-49C8-A040-AE512F899A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B682D686-32CA-49C8-A040-AE512F899A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B682D686-32CA-49C8-A040-AE512F899A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{603D324C-B504-4563-865E-6A8E5D1E5AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603D324C-B504-4563-865E-6A8E5D1E5AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603D324C-B504-4563-865E-6A8E5D1E5AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603D324C-B504-4563-865E-6A8E5D1E5AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C37A6F6-9DE2-4A63-BC03-8F705A3F28B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C37A6F6-9DE2-4A63-BC03-8F705A3F28B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C37A6F6-9DE2-4A63-BC03-8F705A3F28B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C37A6F6-9DE2-4A63-BC03-8F705A3F28B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C3CCD6C-D158-4A35-94D0-20A251915EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C3CCD6C-D158-4A35-94D0-20A251915EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C3CCD6C-D158-4A35-94D0-20A251915EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C3CCD6C-D158-4A35-94D0-20A251915EDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
