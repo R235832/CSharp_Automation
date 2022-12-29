@@ -16,7 +16,8 @@ namespace Ma.AssignmentDayTwo
             driver.FindElement(By.XPath("//a[@data-lbl=\"profile:sign-in-account\"]")).Click();
             Console.WriteLine(driver.Title);
             Console.WriteLine(driver.Url);
-            IWebElement element = driver.FindElement(By.XPath(" (//div[@class=\"cb41w1\"])[1]"));
+            Thread.Sleep(1000);
+            IWebElement element = driver.FindElement(By.XPath("//h2[contains(text(),'Oracle account sign in')]"));
             string text=element.Text;
             Console.WriteLine(text);
             driver.FindElement(By.Name("ssousername")).SendKeys("john");
